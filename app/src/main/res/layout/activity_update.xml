@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Update">
+
+    <TextView
+        android:id="@+id/uInfo"
+        android:layout_width="373dp"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="68dp"
+        android:text="This is the update page. You will input information within these fields and select the enter button below."
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="72dp"
+        android:layout_height="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="520dp"
+        android:hint="input the name here(Mr.Bean)"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="287dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="224dp"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="267dp"
+        android:text="Time" />
+
+    <TextView
+        android:id="@+id/Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="310dp"
+        android:text="Location" />
+
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Finding Location Assist" />
+
+</RelativeLayout>
